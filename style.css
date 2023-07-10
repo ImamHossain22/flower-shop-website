@@ -1,0 +1,51 @@
+/* common styles are here */
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.common-btn {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Banner related style */
+
+.banner {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px 0 150px;
+}
+
+.banner-container{
+    max-width: 600px;
+
+    margin:190px 100px 160px 0px ;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    /* margin-top: 190px; */
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    margin: 30px 0 30px 0;
+}
+
+.banner .banner-photo{
+    width: 600px;
+    margin-top: 50px;
+}
