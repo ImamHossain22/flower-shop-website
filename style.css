@@ -22,7 +22,7 @@
     margin-top: 180px;
 }
 
-.section-info{
+.section-info {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -36,7 +36,7 @@
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
-    padding: 30px 150px 0 150px;
+    padding: 30px 240px 0 240px;
 }
 
 .banner-container {
@@ -48,7 +48,7 @@
     color: #272727;
     font-size: 60px;
     font-weight: 800;
-    margin-top: 190px;
+
 }
 
 .banner-description {
@@ -66,9 +66,65 @@
 
 /* main section  */
 
-#flower-section-info{
+#flower-section-info {
 
     width: 600px;
-    margin:30px auto;
+    margin: 30px auto;
 
+}
+
+/* image section */
+
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    padding: 30px 240px;
+    gap: 25px;
+    
+    margin: auto;
+}
+
+.image-container-1 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.image-one {
+    padding: 110px 75px 0px 75px;
+}
+
+.image-container-2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image-two {
+    padding: 117px 47px 51px 47px;
+}
+
+
+.image-container-3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.image-three {
+    padding: 67px 75px 0px 75px;
+}
+
+
+.image-info {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 35px;
 }
