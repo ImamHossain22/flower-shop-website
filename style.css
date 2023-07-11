@@ -132,6 +132,10 @@
 
 /* hot deal section */
 
+#word-art{
+   color: #E55473;
+}
+
 .hot-deal-section {
     display: flex;
     border-radius: 8px;
