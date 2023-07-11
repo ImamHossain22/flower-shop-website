@@ -29,6 +29,7 @@
     font-weight: 400;
 }
 
+/* main part */
 
 /* Banner related style */
 
@@ -66,7 +67,7 @@
 
 /* main section  */
 
-#flower-section-info {
+#common-section-info {
 
     width: 600px;
     margin: 30px auto;
@@ -81,7 +82,6 @@
     justify-content: center;
     padding: 30px 240px;
     gap: 25px;
-
     margin: auto;
 }
 
@@ -132,8 +132,8 @@
 
 /* hot deal section */
 
-#word-art{
-   color: #E55473;
+#word-art {
+    color: #E55473;
 }
 
 .hot-deal-section {
@@ -157,12 +157,49 @@
     margin-top: 200px;
 }
 
-.hot-deal-description{
+.hot-deal-description {
     width: 594px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     margin: 30px 0;
+
+}
+
+/* Display images style */
+
+.display-image {
+    width: 342px;
+    height: 396px;
+}
+
+/* Get The Latest Deals */
+
+.latest-deal-section {
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin: auto;
+    height: 450px;
+    padding: 125px 280px;
+
+}
+
+.input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+
+}
+
+.search-and-btn{
+   display: flex;
+   gap: 18px;
+   justify-content: center;
+   margin-top: 50px;
 
 }
