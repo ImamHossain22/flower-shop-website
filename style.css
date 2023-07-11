@@ -30,6 +30,14 @@
     font-weight: 400;
 }
 
+#offer{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
 /* main part */
 
 /* Banner related style */
