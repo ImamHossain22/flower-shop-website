@@ -2,6 +2,7 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    max-width: 1920px;
 }
 
 .common-btn {
@@ -196,10 +197,35 @@
 
 }
 
-.search-and-btn{
-   display: flex;
-   gap: 18px;
-   justify-content: center;
-   margin-top: 50px;
+.search-and-btn {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 50px;
 
+}
+
+
+/* footer styles are here */
+
+footer {
+    background: #111010;
+}
+
+.footer-container {
+   
+}
+
+.footer-title {
+    color: #E55473;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-info {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
