@@ -209,18 +209,24 @@
 /* footer styles are here */
 
 footer {
+
+    height: 450px;
     background: #111010;
 }
 
 .footer-container {
-   
+
+    margin: auto;
+    padding: 130px 200px;
+    width: 625px;
 }
 
 .footer-title {
-    color: #E55473;
+    color: #FFFFFF;
     text-align: center;
     font-size: 48px;
     font-weight: 800;
+    margin-top: 30px;
 }
 
 .footer-info {
@@ -228,4 +234,5 @@ footer {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin-top: 30px; 
 }
